@@ -1,2 +1,4 @@
 # elf-bar
-Design by Alexandra Sinelnichenko. Project by Demchenko Nikita. 
+
+Design by Alexandra Sinelnichenko.
+Project by Demchenko Nikita.
