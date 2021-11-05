@@ -482,6 +482,13 @@ a {
   margin-top: 95px;
 }
 
+.footer__links--title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+}
+
 .footer__links--face {
   margin-right: 30px;
 }
