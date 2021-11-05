@@ -460,6 +460,32 @@ a {
   text-decoration: none;
 }
 
+.footer__contacts--adress {
+  padding-bottom: 10px;
+}
+
+.footer__contacts--tel {
+  padding-bottom: 10px;
+}
+
+.footer__contacts--q {
+  margin-top: 150px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 167.5%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__links {
+  margin-top: 95px;
+}
+
+.footer__links--face {
+  margin-right: 30px;
+}
+
 .adress {
   font-family: Open Sans;
   font-style: normal;
