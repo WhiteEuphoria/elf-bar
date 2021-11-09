@@ -10,6 +10,7 @@ header {
 body {
   background-color: #040720;
   color: white;
+  margin: 0;
 }
 
 a {
@@ -103,13 +104,15 @@ a {
 }
 
 .offer__wrapper {
-  max-width: 1450px;
+  max-width: 1350px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
 }
 
 .offer__img {
@@ -168,13 +171,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .about__img--item {
-  width: 740px;
   background-size: cover;
 }
 
@@ -182,6 +181,10 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.marg {
+  margin-right: 40px;
 }
 
 .catalog {
@@ -431,6 +434,10 @@ a {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
+}
+
+.align {
+  vertical-align: bottom;
 }
 
 .footer {
