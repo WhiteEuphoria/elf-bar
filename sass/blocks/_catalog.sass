@@ -1,13 +1,16 @@
 .catalog
     margin-top: 80px
     &__title
-        font-family: Open Sans
-        font-style: normal
-        font-weight: bold
-        font-size: 35px
-        line-height: 145%
         text-align: center
-
+        &--subtitle
+            opacity: 0.5
+            background: linear-gradient(#3145FF, #FF8686)
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+            color: #3145FF
+            position: absolute
+            right: 0
+            z-index: -1
         &--wrap
             display: flex
             justify-content: center
@@ -15,9 +18,14 @@
             margin: auto
             max-width: 850px
     &__wrapper
-        max-width: 1170px
+        max-width: 1200px
         margin: auto
         margin-top: 50px
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-around
+
+        // margin-bottom: 30px
 
         // display: flex
         // justify-content: space-between
@@ -29,25 +37,9 @@
         display: flex
         justify-content: space-between
 
-    &__subtitle
-
-        font-family: Raleway
-        font-style: normal
-        font-weight: 800
-        font-size: 80px
-        line-height: 145%
-        opacity: 0.5
-        background: linear-gradient(#3145FF, #FF8686)
-        -webkit-background-clip: text
-        -webkit-text-fill-color: transparent
-        color: #3145FF
-        position: absolute
-        right: 0
-        z-index: -1
-        // right: 525px
-        // top: 1714px
 .card
     // position: relative
+    margin-bottom: 30px
     width: 270px
     height: 365px
     border: 1px
@@ -72,6 +64,8 @@
         font-size: 14px
         margin-left: 25px
         margin-top: 14px
+    // &__image
+    //     width: 250px
     &__title
         font-family: Raleway
         font-family: Bold
