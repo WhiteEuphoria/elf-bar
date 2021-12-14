@@ -1,28 +1,33 @@
 .header
-    width: 1440px
-    // margin-top: 30px
-    // margin-bottom: 30px
-    padding: 30px 0 30px 0
-    display: flex
-    justify-content: space-between
+    &__wrapper
+        width: 1440px
+        padding: 30px 0 30px 0
+        display: flex
+        justify-content: space-between
+        margin: auto
     &__menu
         font-family: 'Montserrat', sans-serif
         display: flex
         list-style: none
         padding-left: 0px
+        cursor: pointer
         &--link
             padding-right: 60px
             text-decoration: none
             color: white
         // margin: auto
+
 .burger
+    display: none
+
     &--1
         width: 30px
         height: 2px
         background-color: white
         margin-bottom: 10px
     &--2
-
         width: 30px
         height: 2px
         background-color: white
+    &__phone
+        display: none

@@ -11,37 +11,53 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header class="header mobile">
+        <div class="header__wrapper">
+
+        
         <a href="#" class="logo">
             <img src="img/logo.svg" alt="Logo Elf bar" class="logo__img">
         </a>
-      
-        <ul class="header__menu">
-            <li class="heder__menu--item">
-                <a href="#" class="header__menu--link" >Головна</a>
+      <div class="navbar">
+        <ul class="header__menu" id="link">
+            <li class="header__menu--item">
+                <a href="#offer" class="header__menu--link">Головна</a>
             </li>
-            <li class="heder__menu--item">
-
-                <a href="#" class="header__menu--link" >Про нас</a>
+            <li class="header__menu--item">
+                <a href="#about" class="header__menu--link">Про нас</a>
             </li>
-            <li class="heder__menu--item">
-                <a href="#" class="header__menu--link" >Каталог</a>
+            <li class="header__menu--item">
+                <a href="#catalog" class="header__menu--link">Каталог</a>
             </li>
-            <li class="heder__menu--item">
-                <a href="#" class="header__menu--link" >Контакти</a>
+            <li class="header__menu--item">
+                <a href="#contacts" class="header__menu--link">Контакти</a>
             </li>
         </ul>
-        
+        </div>
         <a href="tel:+380730085742" class="header__phone">
             <img src="img/phone.svg" title="прейти в телефон" alt="Use phone" class="header__phone--img">
         </a>
 
         <div class="burger">
-            <div class="burger--1"></div>
-            <div class="burger--2"> </div>
+            <!-- <div class="burger--1"></div>
+            <div class="burger--2"></div> </div> -->
+            
         </div>
+
+        <div class="burger__phone">   
+            <a href="tel:+380730085742" class="burger__phone--number">
+                 +(380) 636 342 493
+            </a>
+            <a href="tel:+380730085742">
+            <img src="img/phone.svg" title="прейти в телефон" alt="Use phone" class="burger__phone--img">
+            </a>
+        </div>
+        <!-- /.phone__burger -->
+
+    </div>
+        <!-- /.header__wrapper -->
     </header>
-    <section class="offer">
+    <section class="offer" id="offer">
         <div class="offer__wrapper">
 
         <img src="img/offer.png" alt="" class="offer__subimg">
@@ -64,7 +80,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="flex">
         <h2 class="about__title title">
             Чому обирають нас?
@@ -91,7 +107,7 @@
         
     </section>   
 
-    <section class="catalog">
+    <section class="catalog" id="catalog">
         <div class="catalog__title--wrap">
             <h2 class="catalog__title title">
                 Каталог
@@ -333,7 +349,7 @@
     <footer class="footer">
         <div class="footer__wrap">
             <!-- <div class="wrp"> -->
-            <div class="footer__contacts">
+            <div class="footer__contacts" id="contacts">
                 <a href="#" class="logo">
                     <img src="img/logo.svg" alt="Logo Elf bar" class="logo__img">
                 </a>
@@ -388,6 +404,6 @@
         <!-- /.footer__wrap -->
     </footer>
 
-    
+    <script src="js/main.js"></script>
 </body>
 </html>
